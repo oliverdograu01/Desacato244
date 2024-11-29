@@ -1,0 +1,44 @@
+.chamada{
+    background: yellow;
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    justify-content: center;
+}
+body{
+    background: purple;
+    margin: 0px;
+    font-family: "Sour Gummy", sans-serif;
+    color: black;
+    margin-bottom: 100px;
+}
+header{
+    font-size: 35px;
+    color: black;
+    border-bottom: 3px solid black;
+    padding: 20px;
+}
+h1{
+    font-size: 40px;
+}
+.chamada-texto{
+    margin-right: 5%;
+}
+.categoria{
+margin-top: 50px;
+padding-left: 20px;
+padding-right: 20px;
+}
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.categoria-videos img{
+    height: 200px;
+    opacity: 0,5;
+}
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 3px solid red ;
+}
