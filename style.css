@@ -1,12 +1,12 @@
 .chamada{
-    background: yellow;
+    background: rgb(0, 0, 0);
     display: flex;
     padding-top: 80px;
     padding-bottom: 80px;
     justify-content: center;
 }
 body{
-    background: purple;
+    background: rgb(255, 255, 255);
     margin: 0px;
     font-family: "Sour Gummy", sans-serif;
     color: black;
